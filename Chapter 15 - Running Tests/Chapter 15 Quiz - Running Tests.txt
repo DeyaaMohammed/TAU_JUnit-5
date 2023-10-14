@@ -1,0 +1,23 @@
+1. How can we run all the tests that have a certain tag assigned from IntelliJ?
+   [ ] a- From the left-hand menu
+   [x] b- From `Edit Configurations`, choose `Tags` in the `Test kind` dropdown
+   [ ] c- There is no option for this
+   [ ] d- From `Edit Configurations`, choose None
+
+2. How can we run all the tests that have a certain tag assigned from Maven?
+   [ ] a- mvn test -Dincludes=nameOfTag
+   [ ] b- mvn test -Dname=nameOfTag
+   [x] c- mvn test -Dgroups=nameOfTag
+   [ ] d- mvn test
+
+3. How can we run only a chosen method from a test class with Maven?
+   [ ] a- mvn test -Dname=name
+   [ ] b- mvn test -Dincludes=name
+   [ ] c- mvn test
+   [x] d- mvn test -Dtest=nameOfClass#nameOfMethod
+
+4. What can we run from IntelliJ?
+   [ ] a- A test class
+   [ ] b- A package with test classes
+   [x] c- All of the options
+   [ ] d- A test method

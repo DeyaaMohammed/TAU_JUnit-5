@@ -1,0 +1,21 @@
+1. Which is the dedicated annotation for when we want to run the exact same test method multiple times, without providing any parameters to the test method?
+[ ] a- @Test
+[ ] b- @ParameterizedTest
+[x] c- @RepeatedTest
+[ ] d- @BeforeEach
+
+2. How can we override the way each method repetition is shown at the console when the test method runs?
+[x] a- By providing the `name` attribute value to the @RepeatedTest annotation
+[ ] b- By using an assumption
+[ ] c- By only providing how many times we want to run the same test method
+[ ] d- We can't
+
+3. It is possible to also add a @DisplayName annotation to a method annotated with @RepeatedTest.
+[x] a- True
+[ ] b- False
+
+4. How can we find out which repetition as an int the current test method run is?
+[ ] a- Using @ParameterizedTest
+[ ] b- We can't
+[x] c- Using RepetitionInfo
+[ ] d- Using @DisplayName

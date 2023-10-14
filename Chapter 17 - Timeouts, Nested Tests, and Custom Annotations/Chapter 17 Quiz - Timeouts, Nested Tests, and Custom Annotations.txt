@@ -1,0 +1,23 @@
+1. What default TimeUnit is used for the @Timeout annotation?
+[ ] a- MINUTES
+[x] b- SECONDS
+[ ] c- HOURS
+[ ] d- DAYS
+
+2. How can we create an inner test class for a given test class?
+[ ] a- We cannot
+[x] b- By creating the test class inside the given test class and annotating it with @Nested
+[ ] c- By creating a separate class in the same folder
+[ ] d- By using the @InnerTest annotation
+
+3. How can we create our own custom annotation?
+[x] a- By creating a new interface to which we will assign the annotations we want to replace with the newly created annotation
+[ ] b- By creating a new ENUM
+[ ] c- We cannot
+[ ] d- By creating a @Nested test
+
+4. What will be the name of the newly created custom annotation?
+[ ] a- The name of the current test method
+[ ] b- The name of the current test class
+[x] c- The name of the corresponding interface we created
+[ ] d- The name of the package

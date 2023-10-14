@@ -1,0 +1,21 @@
+1. What annotation allows a test method to receive parameter values from a method?
+[ ] a- @ValueSource
+[x] b- @MethodSource
+[ ] c- @CsvFileSource
+[ ] d- @CsvSource
+
+2. Does the source method need to be marked as static?
+[ ] a- Yes if it only returns one parameter
+[ ] b- No
+[ ] c- Yes if it returns a Stream
+[x] d- Yes, if it is in a different class than the test method or if the test class is not annotated with @TestInstance(TestInstance.Lifecycle.PER_CLASS)
+
+3. If we want a source method to return more than one value, it needs to return a Stream of...
+[x] a- Arguments
+[ ] b- @Test
+[ ] c- test method
+[ ] d- Classes
+
+4. Can a test method receive values for more than one test parameter when using @MethodSource?
+[x] a- true
+[ ] b- false

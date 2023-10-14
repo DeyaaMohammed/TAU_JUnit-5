@@ -1,0 +1,23 @@
+1. What access modifier is not allowed in a test method signature?
+[ ] a- public
+[x] b- private
+[ ] c- protected
+[ ] d- package-private
+
+2. What return type can a test method have?
+[x] a- void
+[ ] b- any return type
+[ ] c- int
+[ ] d- String
+
+3. What annotation can we use to change a test method's display name in the console for a test run?
+[x] a- @DisplayName
+[ ] b- @Test
+[ ] c- @FindBy
+[ ] d- @Junit5
+
+4. What is a test class?
+[ ] a- A class that contains no test methods
+[ ] b- A class that is annotated with @DisplayName
+[ ] c- Any class that was created in the `test` folder of the project
+[x] d- A class that contains at least one test method

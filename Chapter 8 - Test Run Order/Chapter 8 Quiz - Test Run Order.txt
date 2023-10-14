@@ -1,0 +1,23 @@
+1. What annotation is used for enabling ordering in a test class?
+[ ] a- @ParameterTest
+[ ] b- @BeforeClass
+[ ] c- @Test
+[x] d- @TestMethodOrder
+
+2. What type of parameter does the @Order annotation take to specify the order in which the annotated test methods run?
+[ ] a- boolean
+[x] b- int
+[ ] c- double
+[ ] d- String
+
+3. What option allows the test methods to be ordered by their method name?
+[x] a- MethodName
+[ ] b- DisplayName
+[ ] c- OrderAnnotation
+[ ] d- Random
+
+4. If the DisplayName option is selected for ordering, how will the test methods with an assigned @DisplayName run?
+[ ] a- They will be skipped
+[x] b- Alphanumerically
+[ ] c- Randomly
+[ ] d- Descending

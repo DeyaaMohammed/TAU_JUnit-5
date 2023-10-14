@@ -1,0 +1,23 @@
+1. Which annotation allows us to disable a test without providing any condition based on which to disable it?
+[x] a- @Disabled
+[ ] b- @BeforeEach
+[ ] c- @Test
+[ ] d- @ParameterizedTest
+
+2. Which annotation allows us to disable a test on an OS we provide?
+[ ] a- @ParameterizedTest
+[ ] b- @Test
+[ ] c- @Disabled
+[x] d- @DisabledOnOs
+
+3. Which annotation allows us to provide the boolean result of a method for disabling a test?
+[x] a- @DisabledIf
+[ ] b- @Disabled
+[ ] c- @Test
+[ ] d- @DisabledOnOs
+
+4. Is there an option to also enable a test?
+[ ] a- Yes, using the annotation @Test
+[x] b- Yes, using annotations like @Enabled, @EnabledOnOs, etc.
+[ ] c- Yes, using the annotation @Disabled
+[ ] d- No

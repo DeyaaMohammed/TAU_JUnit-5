@@ -1,0 +1,23 @@
+1. What annotation suggests that a test method accepts parameters?
+[ ] a- @AfterEach
+[x] b- @ParameterizedTest
+[ ] c- @BeforeAll
+[ ] d- @Test
+
+2. Which of the following are allowed types for parameters set with the @ValueSource annotation?
+[ ] a- int
+[ ] b- String
+[ ] c- boolean
+[x] d- All of the above
+
+3. How many parameters can a method have when used with @ValueSource?
+[ ] a- 4
+[ ] b- 2
+[x] c- 1
+[ ] d- 3
+
+4. What type can a method parameter have when the @NullAndEmptySource annotation is used?
+[ ] a- boolean
+[x] b- String
+[ ] c- double
+[ ] d- int

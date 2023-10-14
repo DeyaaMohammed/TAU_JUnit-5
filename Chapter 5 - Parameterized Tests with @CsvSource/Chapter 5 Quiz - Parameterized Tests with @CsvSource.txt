@@ -1,0 +1,23 @@
+1. What is the default delimiter used by the @CsvSource annotation when specifying parameter values you want to set in a test method?
+[x] a- ,
+[ ] b- ?
+[ ] c- ;
+[ ] d- .
+
+2. What annotation will we use when we want to send multiple constant parameter values to our test methods?
+[x] a- @CsvSource
+[ ] b- @Test
+[ ] c- @ValueSource
+[ ] d- @BeforeEach
+
+3. What characters will we use to mark that a set of coma separated Strings represent only one parameter?
+[x] a- single quote
+[ ] b- ;
+[ ] c- ?
+[ ] d- .
+
+4. What annotation attribute allows us to define our own delimiter for passing parameter values?
+[ ] a- value
+[ ] b- tab
+[x] c- delimiter
+[ ] d- separator

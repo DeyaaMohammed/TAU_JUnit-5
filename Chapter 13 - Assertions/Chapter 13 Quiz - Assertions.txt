@@ -1,0 +1,21 @@
+1. Which assertion can be used for comparing two Arrays?
+[ ] a- assertFalse
+[ ] b- assertNotEquals
+[ ] c- assertTrue
+[x] d- assertArrayEquals
+
+2. How can you assert multiple conditions within the same assertion, without failing the test when the first failed condition is encountered?
+[ ] a- assertNotEquals
+[x] b- assertAll
+[ ] c- assertTrue
+[ ] d- assertFalse
+
+3. Which assertion can help us test that an Exception was thrown?
+[ ] a- assertTrue
+[ ] b- assertFalse
+[ ] c- assertNotEquals
+[x] d- assertThrows
+
+4. Is the correct order of passing the values to be compared to the assertEquals method: expected, actual?
+[x] a- True
+[ ] b- False

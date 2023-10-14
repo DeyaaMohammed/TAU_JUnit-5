@@ -1,0 +1,19 @@
+1. Which annotation is used to assign a String value to a test method or class, in order to include or exclude it from a test run?
+[ ] a- @RepeatedTest
+[ ] b- @ParameterizedTest
+[ ] c- @Test
+[x] d- @Tag
+
+2. Are characters like (,),& or | allowed in a tag name value?
+[ ] a- True
+[x] b- False
+
+3. How many tag names can be specified inside a @Tag annotation?
+[ ] a- 3
+[ ] b- 2
+[x] c- 1
+[ ] d- 0
+
+4. Once you assign a @Tag annotation to a test method, can you omit specifying a String value inside it?
+[ ] a- True
+[x] b- False

@@ -1,0 +1,11 @@
+1. What Java JDK version is required for using JUnit 5?
+[ ] a- 7
+[ ] b- 6
+[x] c- 8 or higher
+[ ] d- You don't need Java JDK
+
+2. Which is the best dependency to add to your project in order to have access to all the JUnit 5 features?
+[x] a- junit-jupiter (Aggregator)
+[ ] b- junit-jupiter-params
+[ ] c- junit-jupiter-api
+[ ] d- junit-5

@@ -1,0 +1,23 @@
+1. Which Hamcrest Matchers can we use to check whether a Map has a certain key?
+[ ] a- hasValue
+[ ] b- equalsTo
+[x] c- hasKey
+[ ] d- anyOf
+
+2. How can we check that at least one provided Matcher out of several ones is fulfilled?
+[ ] a- noneOf
+[ ] b- allOf
+[x] c- anyOf
+[ ] d- of
+
+3. How can we check that a List contains an item we provide to the Matchers?
+[ ] a- anyOf
+[ ] b- hasKey
+[x] c- hasItem
+[ ] d- hasValue
+
+4. How can we check that some items we provide to a Matcher are part of a List, in any order?
+[ ] a- hasKey
+[x] b- containsInAnyOrder
+[ ] c- anyOf
+[ ] d- hasValue

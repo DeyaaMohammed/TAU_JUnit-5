@@ -1,0 +1,23 @@
+1. What access modifier is not allowed in a lifecycle method signature?
+[ ] a- package-private
+[x] b- private
+[ ] c- protected
+[ ] d- public
+
+2. What lifecycle method annotation is used for setup that runs only once per class, before anything else runs?
+[ ] a- @BeforeClass
+[x] b- @BeforeAll
+[ ] c- @BeforeEach
+[ ] d- @Before
+
+3. What lifecycle method annotation is used for cleanup that runs after each test method finishes?
+[x] a- @AfterEach
+[ ] b- @After
+[ ] c- @AfterAll
+[ ] d- @AfterMethod
+
+4. How many times will the @BeforeEach and @AfterEach methods run when declared in a test class with 2 test methods?
+[ ] a- 0
+[ ] b- 1
+[x] c- 2
+[ ] d- 6

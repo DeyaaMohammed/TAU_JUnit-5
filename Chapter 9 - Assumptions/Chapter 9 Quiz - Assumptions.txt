@@ -1,0 +1,21 @@
+1. What feature of JUnit 5 allows us to skip a test based on a condition?
+[ ] a- parameterization
+[x] b- assumption
+[ ] c- assertion
+[ ] d- annotations
+
+2. What does the condition specified in an assumption need to evaluate to?
+[ ] a- String
+[ ] b- double
+[ ] c- int
+[x] d- boolean
+
+3. Which of the following is not an assumption?
+[ ] a- assumeFalse
+[ ] b- assumingThat
+[x] c- assumeNull
+[ ] d- assumeTrue
+
+4. We can specify an additional message to be printed to the console for when an assumption fails.
+[x] a- true
+[ ] b- false

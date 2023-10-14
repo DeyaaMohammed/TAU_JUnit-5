@@ -1,0 +1,21 @@
+1. What is the name of the interface we need to extend in order to listen to the events of a test run?
+[ ] a- NestedTest
+[x] b- TestWatcher
+[ ] c- TestListener
+[ ] d- Tester
+
+2. How can we get the name of a test method that ran from within the methods overridden from the TestWatcher?
+[ ] a- We don't have access to this information
+[ ] b- By setting a special property in the test class
+[ ] c- Using TestListener
+[x] d- Using the ExtensionContext
+
+3. How can we get the reason for failure from within the methods overridden from the TestWatcher?
+[ ] a- Using TestListener
+[ ] b- We don't have access to this information
+[x] c- Using the Throwable cause parameter
+[ ] d- By setting a special property in the test class
+
+4. Do we have a method in the TestWatcher interface related to a test being disabled?
+[x] a- true
+[ ] b- false

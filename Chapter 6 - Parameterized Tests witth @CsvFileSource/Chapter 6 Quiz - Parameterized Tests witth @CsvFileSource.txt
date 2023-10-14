@@ -1,0 +1,21 @@
+1. We can provide multiple CSV input files to the @CsvFileSource, in order to get parameter values from all those files.
+[x] a- true
+[ ] b- false
+
+2. What annotation will we use when we want to read parameter values from a CSV file?
+[ ] a- @Test
+[x] b- @CsvFileSource
+[ ] c- @ValueSource
+[ ] d- @CsvSource
+
+3. What attribute allows us to skip the first line of a CSV file that we read parameter values from?
+[x] a- numLinesToSkip
+[ ] b- files
+[ ] c- delimiter
+[ ] d- values
+
+4. What attribute allows us to set a different delimiter from coma, as a String, to be used as the delimiter of the parameter values in the CSV file?
+[ ] a- values
+[ ] b- delimiter
+[ ] c- separator
+[x] d- delimiterString
